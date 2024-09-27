@@ -1,0 +1,41 @@
+*
+{
+    box-sizing: border-box;
+}
+div
+{
+    background-color: rgb(77, 74, 74);
+    padding: 5px 50px;
+    margin: 20px 20px;
+    border: 5px solid rebeccapurple;
+}
+
+#main>p   
+{
+    color: chartreuse;
+}
+
+/* direct children of div  */
+
+/* div>p           
+{
+    color: chartreuse;
+} */
+
+
+/* descendent of div (all p inside div) */
+/* div p             
+{
+    color:red;
+} */
+
+#seca
+{
+    float:left;
+    width: 50%;
+}
+#secb
+{
+    float:left;
+    width: 50%;
+}
